@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+
+* header {
+    padding: 20px;
+    text-align: center;
+}
+* ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #303030;
+}
+* li a{
+	float: left;
+	display:box;
+	padding: 26px 24px;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+* li a:hover{
+	background-color: #808080;
+}
+* form {
+	display: inline-block;
+	text-align: center;
+	padding: 8px;
+}
+* fieldset {
+	display: inline-block;
+}
+* .form_fields {
+	padding: 8px 2px;
+	margin: 8px 2px;
+}
+* table {
+	border-collapse: collapse;
+}
+* table, * th, * td {
+	text-align: center;
+}
+* th, * td {
+	padding: 5px;
+	border-bottom: 1px solid black;
+}
+* tr:nth-child(even) {
+	background-color: #C0C0C0;
+	}
+* tr:nth-child(odd) {
+	background-color: #F6F6F6;
+}
+* th {
+	background-color: #303030;
+	color: white;
+}
